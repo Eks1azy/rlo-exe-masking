@@ -17,7 +17,7 @@ if icon_path:
 
 pyi_cmd.append(source_py)
 
-print("📦 Створення .exe через PyInstaller...")
+print("Creating .exe with PyInstaller...")
 subprocess.run(pyi_cmd, check=True)
 
 
